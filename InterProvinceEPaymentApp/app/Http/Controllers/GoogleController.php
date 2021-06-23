@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Socialite;
 use Auth;
 use Exception;
-use App\Models\User;
+use App\User;
 use Illuminate\Http\Request;
 
 class GoogleController extends Controller
